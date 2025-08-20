@@ -43,26 +43,35 @@ An **E-commerce web application** built with **React (frontend)**, **Node.js/Exp
 git clone https://github.com/your-username/ecommerce-project.git
 cd ecommerce-project
 
-#Backend setup
+##Backend setup
 - cd backend
 - npm install
 - npm run server
   
-#Frontend setup
+##Frontend setup
 - cd frontend
 - npm install
 - npm run dev
 
-#Admin Dashboard setup
+##Admin Dashboard setup
 - cd dashboard
 - npm install
 - npm run dev
 
-#Add a .env file in backend
-PORT=6001  
-DB_URI=your_database_url  
-JWT_SECRET=your_secret_key  
-RAZORPAY_KEY=your_razorpay_key  
-RAZORPAY_SECRET=your_razorpay_secret  
+##Add a .env file in backend
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=your_password
+DB_NAME=electech
+PRO_PORT=6001
+
+JWT_SECRET=your_secret_key
+
+EMAIL_USER=your_email@gmail.com
+EMAIL_PASS=your_app_password
+
+RAZORPAY_KEY_ID=your_key_id
+RAZORPAY_KEY_SECRET=your_key_secret
+
 
 
