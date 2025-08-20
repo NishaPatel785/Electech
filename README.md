@@ -43,22 +43,22 @@ An **E-commerce web application** built with **React (frontend)**, **Node.js/Exp
 git clone https://github.com/your-username/ecommerce-project.git
 cd ecommerce-project
 
-##Backend setup
+## Backend setup
 - cd backend
 - npm install
 - npm run server
   
-##Frontend setup
+## Frontend setup
 - cd frontend
 - npm install
 - npm run dev
 
-##Admin Dashboard setup
+## Admin Dashboard setup
 - cd dashboard
 - npm install
 - npm run dev
 
-##Add a .env file in backend
+## Add a .env file in backend
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=your_password
