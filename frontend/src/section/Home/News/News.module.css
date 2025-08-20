@@ -1,0 +1,88 @@
+.multi{
+    width: 260px;
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    align-items: start;
+
+    overflow: hidden;
+    transition: transform 1s ease-in-out, background-size 1s ease-in-out !important;
+}
+.main_news{
+    margin: 20px 30px;
+}
+.multi img{
+    object-fit: cover;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    transition: all 1s cubic-bezier(.25,.46,.45,.94) ;
+}
+.multi h5{
+    font-size: 16px;
+    font-weight: 500;
+    padding-block: 4px;
+    font-size: 18px;
+    
+     
+}
+.multi div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #146cda;
+    padding: 4px 0px; /* adjust this to your desired spacing */
+    font-size: 16px;
+}
+
+.multi svg{
+    margin-right: 5px;
+}
+.multi p{
+    color: #777777;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    margin-bottom: 5px;
+}
+
+.multi:hover img{
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 1240px) {
+  .main_news {
+    margin: 10px 20px;
+  }
+
+  .multi img {
+    height: 200px;
+  }
+
+  .multi h5 {
+    font-size: 16px;
+  }
+
+  .multi p {
+    font-size: 14px;
+  }
+
+  .multi div {
+    font-size: 14px;
+  }
+  .multi{
+    height: inherit;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main_news {
+    margin: 15px;
+  }
+  .customHomeheadWrapper h1{
+    font-size: 18px;
+  }
+  
+}

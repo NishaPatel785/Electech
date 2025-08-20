@@ -1,0 +1,89 @@
+.cat img{
+    border:1px solid #e5e5e5;
+    border-radius: 50%;
+    
+}
+.cat{
+    gap: 20px;
+    padding: 0px 30px;
+}
+.tom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 60px; /* adjust as needed to prevent jump */
+  transition: all 0.3s ease;
+    align-items: center;
+}
+.tom h6{
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+}
+.tom p{
+    color:#777777;
+}
+
+.tom {
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    height: 80px; /* Reserve space for either Shop Now or Item count */
+    overflow: hidden;
+  }
+  
+  .tom p,
+  .tom a {
+    transition: opacity 0.3s ease;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 45px;
+  }
+  
+  .tom p {
+    opacity: 1;
+  }
+  
+  .tom a {
+    text-decoration: none;
+    color: #146cda;
+    font-weight: 500;
+    opacity: 0;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+  }
+  
+  .tom:hover p {
+    opacity: 0;
+  }
+  
+  .tom:hover a {
+    opacity: 1;
+  }
+  @media screen and (min-width:991px) and (max-width:1280px) {
+    
+}
+@media(min-width:768px) and (max-width:990px) {
+}
+@media (max-width:767px) {
+  .customHomeheadWrapper h1{
+    font-size: 18px;
+  }
+  .customHomeheadWrapper h6{
+    display: none;
+  }
+  .cat{
+    padding: 0 2px;
+ 
+  }
+  .cat .div div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tom p{
+    text-align: center;
+  }
+}

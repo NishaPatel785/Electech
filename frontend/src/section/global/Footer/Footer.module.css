@@ -1,0 +1,296 @@
+.footer {
+  background-color: #171d27;
+  padding-top: 80px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.image img {
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+
+}
+
+.foot li {
+  line-height: 22px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  list-style: none;
+  font-size: 14px;
+
+
+}
+
+.footer_bottom {
+  border-top: solid 1px #3a3f47;
+  padding: 20px 30px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.footer_bottom div:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+.imfor {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.imfor div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.imfor div:first-child svg {
+  font-size: 50px;
+}
+
+.imfor svg {
+  font-size: 20px;
+}
+
+.circle a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imfor p {
+  padding-left: 10px;
+  color: white;
+}
+
+.icon {
+  display: flex;
+  transition: all .5s ease;
+}
+
+.icon a {
+  background-color: white;
+  padding: 11px;
+  border-radius: 50%;
+  color: #333333;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  margin-right: 15px;
+  transition: all .5s ease;
+  text-decoration: none;
+  display: flex;
+  margin: 10px;
+  transition: all .5s ease;
+}
+
+.mpara {
+  color: white;
+  font-family: "Exo";
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.circle:hover svg {
+  color: white;
+  transition: all 1s;
+
+}
+
+.circle:hover a {
+
+  background-color: #2C6ECB;
+
+}
+
+.foot {
+  padding: 0px 30px;
+}
+
+
+.tabletGroup {
+  display: flex;
+  width: 100%;
+}
+
+@media screen and (min-width:991px) and (max-width:1280px) {
+  .foot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:initial;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 30px;
+    gap: 20px;
+  }
+  
+
+
+
+ 
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .image {
+    display: flex;
+  }
+
+  .footer_bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer_bottom>div:nth-child(3) {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .foot {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 30px;
+  }
+
+
+
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  /* .image img {
+    width: 150px;
+    height: auto;
+  } */
+
+
+
+  .icon a {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .imfor p {
+    font-size: 14px;
+  }
+
+  .tabletGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .tabletGroup>div {
+    flex: 1;
+    min-width: 30%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer_bottom {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .footer_bottom>div:nth-child(3) {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .foot {
+    flex-direction: column;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .foot>div {
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  .image img {
+    width: 120px;
+    height: auto;
+  }
+
+  /* .icon {
+    justify-content: center;
+    flex-wrap: wrap;
+  } */
+
+  .icon a {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    padding: 10px;
+    margin: 8px;
+  }
+
+
+  .imfor div {
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .imfor div {
+    flex-direction: row;
+    align-items: flex-start;
+    width: 200%;
+  }
+
+  .imfor p {
+    font-size: 13px;
+    text-align: left;
+  }
+
+  .image {
+    display: flex;
+  }
+
+  .tabletGroup h1,
+  .tabletGroup li {
+    text-align: justify;
+  }
+  .tabletGroup{
+    flex-direction: column;
+  }
+
+  .foot li,
+  .foot h1 {
+    text-align: justify;
+  }
+
+  .imfor div:first-child svg {
+    font-size: 50px;
+  }
+
+}

@@ -1,0 +1,215 @@
+.contact{
+    padding: 30px;
+    display: flex
+;
+    gap: 30px;
+}
+
+.login{
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: left;
+    background-color: #ffffff;  
+    border-radius: 5px;
+    border: 1px solid #E5E5E5;
+    margin-top: 3rem;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    outline: none;
+    /* width: 600px; */
+}
+
+.login input{
+    padding: 10px;
+    margin: 1px;
+    text-align: left;
+    height: 45px;
+    color: #333333;
+    width: 100%;
+    border-width: 1px;
+    border-color: #E5E5E5;
+    border-style: solid;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.login h2{
+    font-size: 16px;
+    margin: 10px 0px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: left;
+
+}
+.h1{
+    text-align: left;
+    /* padding-bottom: 15px; */
+    margin-top: 0;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0;
+    font-size: 25px;
+    line-height: 35px;
+    position: relative;
+    padding-bottom: 15px;
+}
+.h1::after{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 27%;
+    height: 2px;
+    background-color: #146cda;
+    left: 0;
+}
+.first{
+    display: flex;
+    gap: 20px;
+}
+.login .comment textarea{
+    height: 120px;
+    vertical-align: top;
+    width: 100%;
+    padding: 10px;
+    margin: 1px;
+
+    color: #333333;
+    width: 100%;
+    border-width: 1px;
+    border-color: #E5E5E5;
+    border-style: solid;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+
+    
+}
+.comment::placeholder{
+    vertical-align: top;
+
+}
+.login button {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding: 10px 40px;
+    cursor: pointer;
+    border: none;
+    background-color: #146cda;
+    color: white;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  /* Before pseudo-element: Sliding background */
+  .login button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #333333;
+    z-index: -1;
+    transition: width 0.4s ease;
+  }
+  
+  /* On hover: fill from left to right */
+  .login button:hover::before {
+    width: 100%;
+  }
+  
+  /* Optional: change text color when hovering */
+  .login button:hover {
+    color: #ffffff;
+  }
+  
+  .login .add{
+    display: flex;
+    align-items: center;
+  }
+  .login  .add svg{
+    font-size: 30px;
+  }
+  .login  .add span{
+    margin-right: 20px;
+  }
+  .login  .add p{
+    font-size: 16px;
+    color: #2d2c2c;
+  }
+  .login .error {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 4px;
+  }
+
+ 
+@media (min-width: 768px) and (max-width: 990px) {
+  .contact {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .login {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 20px;
+  }
+
+  .first {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .login input,
+  .login .comment textarea {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact {
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .login {
+    padding: 15px;
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .first {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .h1 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .login h2 {
+    font-size: 14px;
+  }
+
+  .login input,
+  .login .comment textarea {
+    font-size: 14px;
+  }
+
+  .login button {
+    width: 100%;
+    padding: 10px;
+  }
+
+  iframe {
+    width: 100% !important;
+    height: 300px !important;
+  }
+}

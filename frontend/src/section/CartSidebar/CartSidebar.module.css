@@ -1,0 +1,195 @@
+.container {
+    padding: 20px;
+    background: #fff;
+    height: 100%;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background: #f8f8f8;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.productName {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantityContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    border: 2px solid #e5e5e5;
+    border-radius: 5px;
+    padding: 2px 6px;
+    margin-top: 5px;
+}
+
+.quantityBtn {
+    background: white;
+    border: none;
+    color: #333;
+    padding: 4px 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.quantityBtn:hover {
+    background: #ccc;
+}
+
+.quantity {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.totalPrice {
+    font-size: 16px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.deleteBtn {
+    background: #146cda;
+    color: white;
+    border: none;
+    padding: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s;
+    margin-top: 5px;
+}
+
+.deleteBtn:hover {
+    background: #333333;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.p1 {
+    margin: 2px 0px;
+    color: #6c6a6a;
+    font-size: 12px;
+}
+
+.order2 {
+    background-color: white;
+    border-top: 1px solid #e5e5e5;
+    padding: 20px;
+}
+
+.order2 p {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.order2 h3 {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.checkoutContainer {
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+        width: 60%;
+    }
+
+    .table th, .table td {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .heading {
+        font-size: 18px;
+    }
+
+    .image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .quantityBtn {
+        padding: 2px 6px;
+        font-size: 14px;
+    }
+
+    .quantity {
+        font-size: 14px;
+    }
+
+    .deleteBtn {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    
+
+    
+    .order2{
+        width: 60%;
+        background-color: #f5f0f0;
+    }
+}
+
+/* Extra small screens */
+@media screen and (max-width: 480px) {
+    .sidebar {
+        width: 100% !important;
+    }
+}

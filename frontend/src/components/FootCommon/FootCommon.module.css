@@ -1,0 +1,19 @@
+
+
+.h1{
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    padding-bottom: 20px;
+    position: relative;
+}
+.h1::after{
+    content: "";
+        width: 60px;
+        height: 2px;
+        background-color: #146cda;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+}

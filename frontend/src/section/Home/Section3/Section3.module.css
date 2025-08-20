@@ -1,0 +1,143 @@
+.sub_banner{
+    height: 200px;
+    display: flex;
+    justify-content: end;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 70px;
+    background-position: center;
+    background-size: cover;
+    background-size: 110%;
+    transition: transform 1s ease-in-out, background-size 1s ease-in-out !important;
+
+    
+  
+}
+.sub_banner img{
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    transition: all 1s cubic-bezier(.25,.46,.45,.94) ;
+}
+.main_subbanner{
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+.sub_banner:hover {
+    background-size: 120%;
+    transition: transform;
+}
+.desc h1{
+    padding-top: 20px;
+    font-size: 22px;
+    line-height: 30px;
+    color: white;
+    font-weight: 500;
+}
+.desc h3{
+    padding-block: 12px 10px;
+    font-size: 18px;
+    color: white;
+}
+.desc div{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+.desc div span{
+    font-size: 30px;
+    width: 38px;
+    height: 38px;
+    color: white;
+    background-color: #146cda;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 10px
+}
+.an{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+    margin-bottom: 0;
+    
+}
+.desc div:hover .an{
+    text-decoration: none;
+}
+
+
+@media screen and (min-width:991px) and (max-width:1280px) {
+    .sub_banner{
+        background-position: top !important;
+        background-size: cover;
+    }
+}
+@media(min-width:768px) and (max-width:990px) {
+    .sub_banner{
+        background-position: top !important;
+        background-size: cover;
+    }
+    .main_subbanner{
+    padding: 0 2rem;
+}
+.desc h1{
+        font-size: 18px;
+    }
+    .desc h3{
+        font-size: 16px;
+    }
+    .desc div span{
+        width: 32px;
+    height: 32px;
+    }
+    .desc div span svg{
+        font-size: 20px;
+    }
+    .an{
+        margin-bottom: 14px;
+        font-size: 14px;
+    }
+}
+@media (max-width:767px) {
+    .sub_banner{
+        background-position: top !important;
+        background-size: cover;
+        margin-top: 20px;
+        transition: 1s ease-in-out;
+
+
+    }
+    .sub_banner:hover{
+        background-size:auto;
+          transition: 1s ease-in-out;
+
+
+    }
+    .desc h1{
+        font-size: 18px;
+    }
+    .desc h3{
+        font-size: 16px;
+    }
+    .desc div span{
+        width: 30px;
+    height: 30px;
+    }
+    .desc div span svg{
+        font-size: 20px;
+    }
+    .an{
+        margin-bottom: 14px;
+        font-size: 14px;
+    }
+    .main_subbanner{
+    padding: 0 2rem;
+}
+}

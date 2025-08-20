@@ -1,0 +1,14 @@
+# Node / React
+node_modules/
+dist/
+build/
+coverage/
+# env & local configs
+.env
+.env.*
+*/.env
+*/.env.*
+*.local
+# logs & OS junk
+*.log
+.DS_Store

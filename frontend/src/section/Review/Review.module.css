@@ -1,0 +1,79 @@
+.main{
+    display: flex;
+    flex-direction: row;
+   margin: 10px 30px;
+   gap: 20px;
+   justify-content: space-between;
+}
+.customer{
+    font-size: 26px;
+    text-transform: capitalize;
+    padding: 16px 0px;
+    color: #777777;
+}
+.rate{
+    width: 500px;
+    padding: 20px;
+    margin-top: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    top: unset;
+    left: unset;
+}
+.rate .name{
+    color: #121212;
+    font-size: 16px;
+    font-weight: 600;
+     text-transform: capitalize;
+}
+.rate p{
+    margin: 8px 0;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #6D7175;
+}
+.short{
+    position: relative;
+    width: 38px;
+    height: 38px;
+    display: grid;
+    font-size: 12px;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 26px;
+    font-weight: 700;
+    background: rgb(251, 223, 235);
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+.flez{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.flez1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.star svg{
+    height: 60px;
+}
+
+@media screen and (max-width:768px){
+    .main{
+        flex-direction: column;
+    }
+    
+    .modal{
+        width: 120%;
+    text-align: center;
+    }
+    .rate{
+        width: 100%;
+    }
+    
+}

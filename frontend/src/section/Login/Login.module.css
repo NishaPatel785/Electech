@@ -1,0 +1,133 @@
+.login{
+    margin: 0 auto;
+    padding-left: 45px;
+    padding-right: 45px;
+    text-align: center;
+    background-color: #ffffff;  
+    border-radius: 5px;
+    border: 1px solid #E5E5E5;
+    margin-top: 3rem;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    width: 600px;
+}
+
+.login input{
+    padding: 10px;
+    margin: 1px;
+    text-align: left;
+    height: 45px;
+    color: #333333;
+    width: 100%;
+    border-width: 1px;
+    border-color: #E5E5E5;
+    border-style: solid;
+    border-radius: 5px;
+    margin-top: 20px;
+    outline: none;
+}
+.login h2{
+    font-size: 22px;
+    margin: 18px 0px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+.forgot{
+    margin-top: 1px;
+    color: #333333;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 1px;
+    transition: text-decoration-thickness ease 100ms;
+    text-decoration-color: black;
+    text-align: left;
+
+    
+}
+.forgot:hover{
+    text-decoration: underline;
+}
+.pass{
+    position: relative;
+    z-index: 1;
+}
+.eye{
+    background-color: white;
+    border: none;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+}
+.reg{
+    color: black;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 1px;
+    transition: text-decoration-thickness ease 100ms;
+}
+.reg:hover{
+    text-decoration: underline;
+}
+
+
+/* Make login container responsive */
+@media screen and (max-width: 768px) {
+  .login {
+    width: 100%;
+    max-width: 90%;
+    padding: 20px;
+    margin-top: 2rem;
+  }
+
+  .login h2 {
+    font-size: 20px;
+    margin: 16px 0;
+  }
+
+  .login input {
+    height: 42px;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  .eye {
+    top: 25px;
+    right: 8px;
+  }
+
+  .forgot {
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: right;
+  }
+
+  .reg {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .login {
+    padding: 15px;
+    max-width: 95%;
+  }
+
+  .login h2 {
+    font-size: 18px;
+  }
+
+  .login input {
+    height: 40px;
+    font-size: 13px;
+  }
+
+  .eye {
+    top: 22px;
+    right: 6px;
+  }
+
+  .forgot, .reg {
+    font-size: 13px;
+  }
+}

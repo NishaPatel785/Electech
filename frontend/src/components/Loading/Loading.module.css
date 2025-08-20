@@ -1,0 +1,16 @@
+.laod{
+    height: 50px;
+    width: 50px;
+    background: url(./loading1_1_100X100.gif);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+}

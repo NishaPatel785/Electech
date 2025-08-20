@@ -1,0 +1,12 @@
+.slide{
+    padding-top: 50px;
+        padding-bottom: 10px;
+        padding-left: 17px;
+        padding-right: 17px;
+        margin-top: 20px;
+        border-top: 1px solid #ece6e6;
+        display: flex !important;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+}

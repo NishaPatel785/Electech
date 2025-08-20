@@ -1,0 +1,22 @@
+.title button{
+    background-color: #F5F5F5;
+    margin-top: 5px;
+}
+.title button[aria-expanded="true"] {
+    background-color: #F5F5F5;
+}
+.title:focus button[aria-expanded="true"]{
+    border: none;
+}
+.title svg{
+    font-size: 18px;
+    margin-right: 10px;
+    
+}
+
+
+@media screen and  (max-width:768px)  {
+    p{
+        text-align: justify;
+    }
+}

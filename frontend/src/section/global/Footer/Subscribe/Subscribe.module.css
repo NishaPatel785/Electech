@@ -1,0 +1,58 @@
+.sub{
+    margin-top: 50px;
+    background-color: #146cda;
+    color: white !important;
+    display: flex;
+    flex-direction: row;
+}
+.sub p{
+    color: white;
+    width: 515px;
+    
+}
+.sub .button{
+    background-color: white;
+    color: #333333;
+}
+.go{
+    display: flex;
+    align-items: center;
+}
+.button:hover{
+    background-color: none;
+}
+.button:focus{
+    background-color: none;
+    background-color: white;
+    color: #146cda;
+}
+.container{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+@media (max-width: 768px) {
+  .go {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .sub {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sub p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .sub .button {
+    width: 100%;
+  }
+  .container{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}

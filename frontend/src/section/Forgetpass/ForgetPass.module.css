@@ -1,0 +1,76 @@
+.login{
+    margin: 0 auto;
+    padding-left: 45px;
+    padding-right: 45px;
+    text-align: center;
+    background-color: #ffffff;  
+    border-radius: 5px;
+    border: 1px solid #E5E5E5;
+    margin-top: 3rem;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    width: 600px;
+}
+
+.login input{
+    padding: 10px;
+    margin: 1px;
+    text-align: left;
+    height: 45px;
+    color: #333333;
+    width: 100%;
+    border-width: 1px;
+    border-color: #E5E5E5;
+    border-style: solid;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.login h2{
+    font-size: 22px;
+    margin: 18px 0px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+.forgot{
+    margin-top: 1px;
+    color: #333333;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 1px;
+    transition: text-decoration-thickness ease 100ms;
+    text-decoration-color: black;
+    text-align: left;
+
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .login {
+        width: 90%;
+        padding: 30px 20px;
+    }
+
+    .login h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .login {
+        padding: 25px 15px;
+    }
+
+    .login h2 {
+        font-size: 18px;
+    }
+
+    .login p {
+        font-size: 13px;
+    }
+
+    .login input {
+        height: 40px;
+        font-size: 14px;
+    }
+}

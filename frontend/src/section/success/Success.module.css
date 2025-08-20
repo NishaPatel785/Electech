@@ -1,0 +1,66 @@
+.main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, #ffcccb, #7ca1e0); /* Soft gradient background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    z-index: 9999;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    /* border-radius: 10px; */
+    transition: all 0.3s ease-in-out; /* Smooth transition for animations */
+  }
+  
+  .main div {
+    font-size: 32px;
+    font-weight: bold;
+    color: #4b0082; /* Deep purple color */
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .main button {
+    margin: 10px;
+    padding: 12px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #146cda; /* Green background for buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 5px 15px rgba(0, 128, 0, 0.2); /* Button shadow for depth */
+  }
+  
+  .main button:hover {
+    background-color: #146cda; /* Darker green on hover */
+    transform: scale(1.05); /* Slight scaling effect */
+  }
+  
+  .main button:active {
+    transform: scale(1); /* Return to normal size when clicked */
+  }
+  
+  /* Add a smooth fade-in effect */
+  .main {
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

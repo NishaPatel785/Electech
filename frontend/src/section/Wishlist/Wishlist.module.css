@@ -1,0 +1,98 @@
+/* Wishlist.module.css */
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 8px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+.card {
+    /* background: #f9f9f9; */
+    border: 1px solid #d3cccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0px;
+    /* box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15); */
+
+}
+
+.card:hover img {
+    transform: scale(1.07);
+}
+
+.image {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 8px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.details {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.name {
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(51, 51, 51, 1);
+}
+
+.brand {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.price {
+    font-size: 16px;
+    color: #146cda;
+    font-weight: 500;
+    line-height: 1px;
+}
+
+
+.loading,
+.error,
+.empty {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+}
+.maincard{
+    width: 250px;
+}
+.cut_price{
+    text-decoration: line-through;
+    color: #777777;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+}
+.price2{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}

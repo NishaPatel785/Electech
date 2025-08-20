@@ -1,0 +1,29 @@
+.logout h1{
+    margin-bottom: 2px;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #333333;
+}
+.logout svg{
+    width: 1.5rem;
+    margin-bottom: -.03rem;
+    margin-right: 8px;
+    color: #454444;
+}
+.account{
+    margin-bottom: 50px;
+}
+.account p{
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+    text-decoration-thickness: 0.1rem;
+    transition: text-decoration-thickness ease 100ms;
+    cursor: pointer;
+}
+.account:hover svg{
+    color: #146cda;
+}
+.account:hover p{
+    color: #146cda;
+}

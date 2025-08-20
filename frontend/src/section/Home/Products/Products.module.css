@@ -1,0 +1,399 @@
+/* General Styling */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.h6{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+
+}
+
+/* Color Options */
+.colorOptions {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.colorOptions button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.colorOptions button:hover {
+    transform: scale(1.1);
+}
+
+.colorOptions button.active {
+    border: 2px solid black;
+}
+
+/* Quantity Selector */
+.quantityContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.quantityBtn {
+    background: #146cda;
+    color: white;
+    border: none;
+    padding: 5px 12px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.quantityBtn:hover {
+    background: #0b4a91;
+}
+
+.quantity {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn-primary {
+    background: #146cda;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+
+.btn-primary:hover {
+    background: black;
+}
+
+.buyNowBtn {
+    background: #ff3f3f;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buyNowBtn:hover {
+    background: darkred;
+}
+.description{
+    margin: 80px auto 0;
+    padding: 0 30px;
+}
+.tab_container{
+    padding: 20px 30px;
+    width: 100%;
+    color:#777777 ;
+    background-color:#ffffff ;
+    border: 0;
+    clear: both;
+    border: 1px solid #e5e5e5;
+}
+.tab_container h1{
+    color: #333333;
+    font-size: 20px;
+    margin: 18px 0px;
+}
+.tab_container p{
+    font-size: 14px;
+    margin: 14px 0px;
+    color: #777777;
+}
+.tabs{
+    float: left;
+    width: 100%;
+    list-style: none;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 0;
+    margin: 0;
+    text-align: left;
+    padding-left: 0;
+    
+}
+.tabs li{
+    background-color: #146cda;
+    color: white;
+    display: block;
+    padding: 10px 21px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    font-size: 15px;
+    text-transform: capitalize;
+    line-height: 26px;
+    border-radius: 5px 5px 0 0;
+    margin: 0;
+    text-decoration: none;
+    float: left;
+}
+.products_D{
+    border-left: 1px solid #e5e5e5;
+    padding-left: 20px;
+}
+.ram{
+    padding: 5px 15px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid #bab6b6;
+    color: #333333;
+}
+.size{
+    padding: 5px 15px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid #bab6b6;
+    color: #333333;
+}
+.scroll{
+    width: 100px;
+}
+.product_price{
+    color: #146cda;
+    font-size: 22px;
+    font-weight: 500;
+}
+.stockDot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 6px;
+  }
+  
+  .inStock {
+    background-color: green;
+  }
+  
+  .outOfStock {
+    background-color: red;
+  }
+  .quantityContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: 2px solid #e5e5e5;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.quantityBtn {
+    background: white;
+    border: none;
+    color: #333;
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.quantityBtn:hover {
+    background: #ccc;
+}
+.ran svg{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.bold{
+    font-weight: 500;
+    color: #333333;
+}
+
+.btn{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding: 15px 120px;
+    cursor: pointer;
+    border: none;
+    background-color: #333333;
+    color: white;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  
+  /* Before pseudo-element: Sliding background */
+  .btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #146cda;
+    z-index: -1;
+    transition: width 0.4s ease;
+  }
+  
+  /* On hover: fill from left to right */
+  .btn:hover::before {
+    width: 100%;
+  }
+  
+  /* Optional: change text color when hovering */
+  .btn:hover {
+    color: #ffffff;
+  }
+  .cut_price{
+    font-size: 22px;
+    text-decoration: line-through;
+
+  }
+
+
+
+  /* Products.module.css */
+
+/* For smaller screens */
+@media screen and (max-width: 768px) {
+  .products_D {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+  }
+
+  .scroll {
+    flex-direction: row !important;
+    justify-content: center;
+    height: auto !important;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .scroll button {
+    margin: 0 5px !important;
+    transform: rotate(90deg);
+    width: 20% !important;
+    display: none;
+  }
+
+  .mySwiper {
+    height: auto !important;
+    flex-direction: row !important;
+  }
+
+  .colorOptions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .quantityContainer {
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+  }
+
+  .tabs {
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  .tab_container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .ram,
+  .size {
+    margin: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+   
+  .btn,
+  .quantityBtn {
+    font-size: 14px;
+    padding: 8px 12px;
+    
+  }
+
+  .product_price{
+    font-size: 20px;
+}
+.rap{
+      text-align: center;
+
+  }
+  .detail{
+    text-align: justify;
+  }
+
+  .cut_price {
+    font-size: 16px;
+  }
+}
+
+/* General button styling if not set */
+.ram, .size {
+  border-radius: 5px;
+  background: white;
+  border: 1px solid #ccc;
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .description {
+    padding: 10px !important;
+  }
+
+  .tab_container {
+    padding: 10px;
+  }
+
+  .tab_container h1 {
+    font-size: 18px;
+  }
+
+  .tab_container p {
+    font-size: 14px;
+  }
+}

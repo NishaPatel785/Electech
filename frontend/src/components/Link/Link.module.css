@@ -1,0 +1,27 @@
+.content{
+    padding-block: 32px;
+    margin-bottom: 30px;
+    background-color: #e6edf5;
+}
+.con{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 40px;
+
+}
+.con h1{
+    font-size: 22px;
+    font-weight: 500;
+    color: #333333;
+}
+.con div a{
+    color: #777777;
+    text-decoration: none;
+   font-size: 15px;
+}
+.con div{
+    color: #777777;
+   font-size: 15px;
+}

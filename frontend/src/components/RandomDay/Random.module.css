@@ -1,0 +1,60 @@
+.main{
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 15px;
+}
+.main .day,.day2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #b4b0b0;
+    border-radius: 5px;
+}
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    flex-direction: column;
+}
+.day2{
+    border-color: #146cda;
+    color: #146cda;
+}
+.p1{
+    color: #146cda;
+}
+.warning{
+    color: red;
+    font-weight: 500;
+    padding: 0 0 5px;
+    clear: both;
+    font-size: 15px;
+
+}
+
+@media screen and (min-width:991px) and (max-width:1280px) {
+    
+}
+@media(min-width:768px) and (max-width:990px) {
+.main{
+  gap:5px;
+}
+    .main .day{
+        width:34px;
+        font-size: 14px;
+        height: 40px;
+        
+    }
+    .day2{
+        width:34px;
+        font-size: 14px;
+        height: 40px;
+
+    }
+} 
+@media (max-width:767px) {
+}

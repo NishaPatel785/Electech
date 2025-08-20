@@ -1,0 +1,124 @@
+.main_subbanner {
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Sub-banner styles */
+.sub_banner {
+  height: 200px;
+  display: flex;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+  border-radius: 5px !important;
+  cursor: pointer;
+  background-position: center;
+  background-size: 100%;
+  transition: transform 1s ease-in-out, background-size 1s ease-in-out !important;
+
+  /* Remove margin-top so gap shows up */
+  margin-top: 0 !important;
+}
+
+/* On hover, zoom background */
+.sub_banner:hover {
+  background-size: 110%;
+  will-change: transform;
+}
+
+.desc h1 {
+  padding-top: 20px;
+  font-size: 22px;
+  line-height: 30px;
+  color: white;
+  font-weight: 500;
+}
+.desc h3 {
+  padding-block: 12px 10px;
+  font-size: 18px;
+  color: white;
+}
+.desc div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.desc div span {
+  font-size: 30px;
+  width: 38px;
+  height: 38px;
+  color: white;
+  background-color: #146cda;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 10px;
+}
+.an {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-bottom: 0;
+}
+.desc div:hover .an {
+  text-decoration: none;
+}
+
+@media(min-width:991px) and (max-width:1280px) {
+  .sub_banner{
+    background-size: cover;
+    transition: background-size 10s ease-in-out !important; 
+
+  }
+  .sub_banner:hover{
+    background-size:150%;
+    will-change: transform;
+  }
+}
+@media(min-width:768px) and (max-width:990px) {
+  .sub_banner{
+    background-size: cover;
+  }
+  
+}
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .desc{
+    padding: 10px;
+  }
+  .main_subbanner {
+    padding: 0 1rem;
+  }
+  .sub_banner {
+    height: 150px;
+    background-size: cover;
+  }
+  .desc h1 {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .desc h3 {
+    font-size: 14px;
+    padding-block: 0px;
+  }
+  .desc div {
+    justify-content: center;
+  }
+  .desc p {
+    margin: 0%;
+  }
+  .an {
+    font-size: 14px;
+  }
+  .desc div span {
+    font-size: 16px;
+    width: 23px;
+    height: 23px;
+    margin-right: 6px;
+  }
+}
